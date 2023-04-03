@@ -6,7 +6,9 @@ body {
 }
 
 body {
-  background-color: #F8F8FF;
+  background-color: #e4f0eb;
+  background-image: url("../img/back3.jpg");
+  background-size: cover;
 }
 
 
@@ -19,6 +21,7 @@ body {
   align-items: center;
   padding: 10px 20px;
 }
+
 
 .main-navigation {
   display: flex;
