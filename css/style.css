@@ -1,0 +1,150 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F8F8FF;
+}
+
+
+/* Page header styles */
+.page-header {
+  background-color: #2E8B57;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list__item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.navigation-list__item:hover {
+  background-color: #fff;
+  color: #2E8B57;
+  border-radius: 5px;
+}
+
+
+
+/* Profile section styles */
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.profile__portrait {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile h1 {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #2E8B57;
+}
+
+.profile p {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #696969;
+}
+
+.profile span {
+  color: #FF8C00;
+}
+
+/* Project section styles */
+.project {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.project h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2E8B57;
+}
+
+.project ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project li {
+  margin-bottom: 30px;
+}
+
+.project h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2E8B57;
+}
+
+.project p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #696969;
+}
+
+.project a {
+  display: inline-block;
+  background-color: #FF8C00;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.project a:hover {
+  background-color: #fff;
+  color: #2E8B57;
+}
+
+/* Page footer styles */
+.page-footer {
+  background-color: #2E8B57;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.page-footer img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
