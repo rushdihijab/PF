@@ -1,0 +1,122 @@
+/* CSS for Case Study myFlix App */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #2E8B57;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Page Header */
+.page-header {
+  background-color: #2E8B57;
+  color: #fff;
+  padding: 10px;
+}
+
+.back-link {
+  color: #fff;
+}
+
+/* Main Content */
+.profileProject {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.project h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.project p {
+  line-height: 1.5;
+}
+
+.project-links {
+  margin-top: 30px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #2E8B57;
+  text-decoration: none;
+  border: 1px solid #2E8B57;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.project-links a:hover {
+  background-color: #2E8B57;
+  color: #fff;
+}
+
+/* Images */
+.intro-img {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.intro-img img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.page-footer {
+  background-color: #2E8B57;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.page-footer img {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.profileProjectImg {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .project h1 {
+    font-size: 24px;
+  }
+
+  .project h2 {
+    font-size: 20px;
+  }
+
+  .project-links a {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
