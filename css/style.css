@@ -46,7 +46,20 @@ body {
   color: #2E8B57;
   border-radius: 5px;
 }
+.profileContact a {
+  color: #2E8B57;
 
+}
+.profileContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 50px 0;
+  text-align: center;
+  font-size:  large ;
+}
 
 
 /* Profile section styles */
@@ -76,7 +89,7 @@ body {
   margin-bottom: 10px;
   color: #2E8B57;
 }
-
+ 
 .profile p {
   font-size: 20px;
   margin: 90px;
@@ -133,6 +146,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 10px;
+  height: -10px;
   color: #696969;
 }
 
@@ -181,4 +195,15 @@ body {
     margin-top: -70px;
     margin-bottom: auto;
   }
-  
+.Rushdi {
+  margin-top: -50px;
+}
+
+/* Profile section */
+.contactProfile {
+  margin: -10px 0;
+  line-height: 2.0;
+}
+
+
+
